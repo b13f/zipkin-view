@@ -87,7 +87,7 @@ class API {
      * @param failure {function} // The failure callback.
      */
     static FetchConfig(success, failure) {
-        Utils.FetchJSON(`${process.env.ZIPKIN_API}/config.json`, success, failure);
+        Utils.FetchJSON(`${process.env.ZIPKIN_API}/zipkin/config.json`, success, failure);
     }
 }
 

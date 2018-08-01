@@ -86,7 +86,8 @@ module.exports = {
     },
     devServer: {
         contentBase: './static',
-        historyApiFallback: true
+        historyApiFallback: true,
+        host: '0.0.0.0',
     },
     plugins: [
         extractSass,
